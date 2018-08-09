@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.source_files  = "loadThirdMap", "loadThirdMap/*.{h,m}"
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
+  s.dependency 'MJExtension', '~> 3.0.13'
 
 end
