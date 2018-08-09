@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD3BEFB0C3AF14ADEA0DB2885C95A26B"
+               BlueprintIdentifier = "C3851E7B1AA7A2F9F785C7701B9D9CB9"
                BlueprintName = "Pods-loadThirdMap"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-loadThirdMap.a">
