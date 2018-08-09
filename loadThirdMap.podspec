@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "cnw" => "502886513@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/ChenNW/loadThirdMap.git", :tag => "s.version" }
+  s.source       = { :git => "https://github.com/ChenNW/loadThirdMap.git", :tag => "0.0.1" }
   s.source_files  = "loadThirdMap", "loadThirdMap/*.{h,m}"
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
