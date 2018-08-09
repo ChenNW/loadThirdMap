@@ -9,7 +9,7 @@
 #import "popViewController.h"
 #import "popTableViewCell.h"
 #import "popModel.h"
-#import <MJExtension.h>
+
 @interface popViewController ()<UITableViewDelegate,UITableViewDataSource>
 /** 数组 */
 @property(nonatomic ,strong)NSMutableArray *dataArray;
@@ -30,10 +30,10 @@
     
 //    self.view.backgroundColor = [UIColor colorWithRed:(arc4random()%256)/255.f green:(arc4random()%256)/255.f blue:(arc4random()%256)/255.f alpha:1];
     NSArray * array = @[@{@"title":@"扫一扫",@"image":@"img_chedai"},@{@"title":@"添加朋友",@"image":@"img_fangdai"},@{@"title":@"摇一摇",@"image":@"img_jingying"},@{@"title":@"扫码支付",@"image":@"img_fangdai"}];
-    for (int i=0; i<array.count; i++) {
-        popModel * model = [popModel mj_objectWithKeyValues:array[i]];
-        [self.dataArray addObject:model];
-    }
+//    for (int i=0; i<array.count; i++) {
+////        popModel * model = [popModel mj_objectWithKeyValues:array[i]];
+//        [self.dataArray addObject:model];
+//    }
     
 
    
